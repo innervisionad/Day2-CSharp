@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\Day2-CSharp\motorcycleSalesman\motorcycleSalesman\bin\Debug\motorcycleSalesman.exe.config
+C:\Users\student\Documents\GitHub\Day2-CSharp\motorcycleSalesman\motorcycleSalesman\bin\Debug\motorcycleSalesman.exe
+C:\Users\student\Documents\GitHub\Day2-CSharp\motorcycleSalesman\motorcycleSalesman\bin\Debug\motorcycleSalesman.pdb
+C:\Users\student\Documents\GitHub\Day2-CSharp\motorcycleSalesman\motorcycleSalesman\obj\Debug\motorcycleSalesman.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Day2-CSharp\motorcycleSalesman\motorcycleSalesman\obj\Debug\motorcycleSalesman.exe
+C:\Users\student\Documents\GitHub\Day2-CSharp\motorcycleSalesman\motorcycleSalesman\obj\Debug\motorcycleSalesman.pdb
