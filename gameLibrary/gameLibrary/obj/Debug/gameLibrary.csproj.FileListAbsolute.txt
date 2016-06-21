@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\Day2-CSharp\gameLibrary\gameLibrary\bin\Debug\gameLibrary.exe.config
+C:\Users\student\Documents\GitHub\Day2-CSharp\gameLibrary\gameLibrary\bin\Debug\gameLibrary.exe
+C:\Users\student\Documents\GitHub\Day2-CSharp\gameLibrary\gameLibrary\bin\Debug\gameLibrary.pdb
+C:\Users\student\Documents\GitHub\Day2-CSharp\gameLibrary\gameLibrary\obj\Debug\gameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Day2-CSharp\gameLibrary\gameLibrary\obj\Debug\gameLibrary.exe
+C:\Users\student\Documents\GitHub\Day2-CSharp\gameLibrary\gameLibrary\obj\Debug\gameLibrary.pdb
