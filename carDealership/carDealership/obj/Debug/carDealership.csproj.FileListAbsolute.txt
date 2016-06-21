@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\Day2-CSharp\carDealership\carDealership\bin\Debug\carDealership.exe.config
+C:\Users\student\Documents\GitHub\Day2-CSharp\carDealership\carDealership\bin\Debug\carDealership.exe
+C:\Users\student\Documents\GitHub\Day2-CSharp\carDealership\carDealership\bin\Debug\carDealership.pdb
+C:\Users\student\Documents\GitHub\Day2-CSharp\carDealership\carDealership\obj\Debug\carDealership.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Day2-CSharp\carDealership\carDealership\obj\Debug\carDealership.exe
+C:\Users\student\Documents\GitHub\Day2-CSharp\carDealership\carDealership\obj\Debug\carDealership.pdb
