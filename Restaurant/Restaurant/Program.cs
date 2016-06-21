@@ -18,22 +18,38 @@ namespace RestaurantEncapsulationExercise
                 this.price = price;
                 this.cost = cost;
             }
-            public static decimal cookMeal(Meal meal, decimal balance)
+            public static void cookMeal(Meal meal)
             {
                 Console.WriteLine("The meal {0} has been cooked.", meal.name);
-                balance = balance + meal.price;
-                balance = balance - meal.cost;
-                return balance;      
-            }
-            public void takeOrder()
-            {
-                Console.WriteLine("The meal {0} has been ordered.", this.name);
+                
             }
         }
-   
+        public class Order
+        {
+            public void takeOrder(Meal meal)
+            {
+                Console.WriteLine("The meal {0} has been ordered.", meal.name);
+            }
+        }
+
+        public class account
+        {
+            public decimal balance = 0;
+            public void updateBal(Meal meal)
+            {
+                balance = balance + meal.price;
+                balance = balance - meal.cost;               
+            }
+            public void totalProfit()
+            {
+                Console.WriteLine("Today's profits are £{0}", this.balance.ToString());
+            }
+        }
+
+
         static void Main(string[] args)
         {
-            decimal balance = 0;
+            account todaysMoney = new account();            
             //add some meals data
             Meal steak = new Meal();
             steak.addMeal("steak", 20.00M, 5.00M);
@@ -42,11 +58,20 @@ namespace RestaurantEncapsulationExercise
             Meal pumpkinRisotto = new Meal();
             pumpkinRisotto.addMeal("pumpkinRisotto", 10.00M, 1.00M);
 
-            steak.takeOrder();          
-            balance = Meal.cookMeal(steak, balance);       
-            pumpkinRisotto.takeOrder();
-            balance = Meal.cookMeal(pumpkinRisotto, balance);
-            Console.WriteLine("Tonight in the restaurant, we made £{0:N2}.", balance);
+
+            Order order1 = new Order();
+            order1.takeOrder(steak);
+            Meal.cookMeal(steak);
+            todaysMoney.updateBal(steak);
+
+            
+
+            Order order2 = new Order();
+            order2.takeOrder(pumpkinRisotto);
+            Meal.cookMeal(pumpkinRisotto);
+            todaysMoney.updateBal(pumpkinRisotto);
+
+            todaysMoney.totalProfit();
         }
     }
 }
